@@ -1,0 +1,81 @@
+body
+{
+    /*========================================================
+    This pattern is downloaded from www.subtlepatterns.com
+    If you need more, that's where to get'em.
+    ========================================================*/
+    background-image: url("img/grey_wash_wall.png");
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.usable
+{
+    padding: 10px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input
+{
+    font-size: 30px;
+    height: 50px;
+}
+.query
+{
+    width: 1250px;
+}
+.error
+{
+    position: absolute;
+    color: #c32424;
+    font-size: 18px;
+    font-weight: bold;
+}
+#odpowiedz
+{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.bg_grey
+{
+    width: calc(100% - 40px);
+    height: 100%;
+    position: absolute;
+    background-color: gray;
+    opacity: .3;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+/*tables*/
+
+table
+{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 13px;
+}
+
+th
+{
+    font-size: 25px;
+    text-decoration: overline;
+    color: #aafaaf;
+}
